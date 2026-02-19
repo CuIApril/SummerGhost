@@ -1109,7 +1109,7 @@ if (!window.harloweAudioLibrary) {
 
 [[“走吧~！”-&gt;BE]]</tw-passagedata><tw-passagedata pid="72" name="BE" tags="" position="1325,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为自然死亡。据悉，伊吹先生在从事绘本作家的工作前曾是一名刑警，因伤病离职后，凭借其独特的观察世界的视角，以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉。接下来是一段关于伊吹先生生前同事们的采访…………”
 
-[[——BE  Blissful Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="73" name="TheFinalDay" tags="" position="825,1200" size="100,100">(if:$suspicion &gt;= 5 and $kizuna &lt;= 8)[做好一切准备工作之后，伊吹轻轻叹气。
+[[——BE  Blissful Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="73" name="TheFinalDay" tags="" position="825,1200" size="100,100">(if:$suspicion &gt;= 5 and $kizuna &lt; 5)[做好一切准备工作之后，伊吹轻轻叹气。
 
 “虽然是幻觉，但能陪我到现在，非常感谢你。至少在最后还能再见你一面什么的，简直是我不敢想的事。”
 
@@ -1120,7 +1120,7 @@ if (!window.harloweAudioLibrary) {
 “虽然大概这几天和你一起做的事完全会被当作是疯子。但至少我很开心。再见了，还有，我马上就来找你。”
 
 [[（踢开凳子。）-&gt;TE]]]
-(if:$kizuna &lt;= 8 and $suspicion &lt; 5)[“今天就是最后一天了吧？”
+(if:$kizuna &lt; 8 and $suspicion &lt; 5)[“今天就是最后一天了吧？”
 
 面对着起了个大早、在窗边注视着日出的伊吹，死神轻轻点了点头。
 
@@ -1129,7 +1129,7 @@ if (!window.harloweAudioLibrary) {
 “……嗯。不急。”死神慢慢踱步到他的身边。大抵因为没有实体，做出这一切时的死神像被风掀起的纱帘一样悄无声息。“介意我一起吗？”
 
 [[“那就一起看吧。”-&gt;HE]]]
-(if:$kizuna &gt;= 8 and $suspicion is not 8)[“……伊吹。”
+(if:$kizuna &gt;= 8 )[“……伊吹。”
 
 今天的死神也一如既往地在清晨到来时呼唤了他的名字。伊吹眨眨眼，睡意渐渐消失了。
 
