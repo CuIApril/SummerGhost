@@ -489,6 +489,7 @@ if (!window.harloweAudioLibrary) {
 不…本来人也不会莫名其妙就在睡觉的时候死掉吧。伊吹甩甩脑袋。
 
 [[“不过，你平时都是醒这么早的吗？”-&gt;Day3.1]]
+
 [[“明天的时候不用第一时间和我问早也可以啦…对心脏稍微有点不好。”-&gt;Day3.2]]</tw-passagedata><tw-passagedata pid="30" name="Day4" tags="" position="825,825" size="100,100">(if:$morningcalling is not false)[“早上到了——快起床。”
 
 久违地稍微赖了会床。伊吹揉揉眼睛，坐起来——无法被攥住的、梦的碎片随着眼睛睁开就此烟消云散了。面前的是自己已经不会再为此感到惊讶了的、死神的面容。
@@ -540,35 +541,8 @@ if (!window.harloweAudioLibrary) {
 
 对于死神一如既往的提问，伊吹轻轻笑了笑。
 
-(if:$Kizuna &gt;= 7)[[[“今天，我想稍微去一趟东京湾。”-&gt;东京湾]]](if:$kizuna &lt; 7)[[[“当然是一如既往地~出门取材啦。”-&gt;Day6.1]]]</tw-passagedata><tw-passagedata pid="33" name="TheFinalDay" tags="" position="825,1200" size="100,100">(if:$suspicion is 8)[做好一切准备工作之后，伊吹轻轻叹气。
-
-“虽然是幻觉，但能陪我到现在，非常感谢你。至少在最后还能再见你一面什么的，简直是我不敢想的事。”
-
-“抱歉。我又没有好好听你的话呢。嘛，不过你肯定也早就知道了吧？我就是这样的人嘛。”
-
-在空无一人的房屋之中自言自语着，伊吹笑出了声。
-
-“虽然大概这几天和你一起做的事完全会被当作是疯子。但至少我很开心。再见了，还有，我马上就来找你。”
-
-[[（踢开凳子。）-&gt;TE]]]
-(if:$kizuna &lt; 8 and $suspicion is not 8)[“今天就是最后一天了吧？”
-
-面对着起了个大早、在窗边注视着日出的伊吹，死神轻轻点了点头。
-
-“应该还不急吧？”伊吹平静地笑笑。“如果不急的话，我想把日出看完。”
-
-“……嗯。不急。”死神慢慢踱步到他的身边。大抵因为没有实体，做出这一切时的死神像被风掀起的纱帘一样悄无声息。“介意我一起吗？”
-
-[[“那就一起看吧。”-&gt;HE]]]
-(if:$kizuna &gt;= 8 and $suspicion is not 8)[“……伊吹。”
-
-今天的死神也一如既往地在清晨到来时呼唤了他的名字。伊吹眨眨眼，睡意渐渐消失了。
-
-“…啊。今天就是最后了……”
-
-面前的死神轻轻点了点头。伊吹凝视着那张脸，花了三秒钟找回自己的声音。
-
-[[“可以稍微等我一下吗？我还有，最后一个想去的地方。”-&gt;呼唤爱的谢幕]]]</tw-passagedata><tw-passagedata pid="34" name="Day2.1" tags="" position="800,450" size="100,100">(if:$bookstore is 0)[[[书店-&gt;书店]]
+(if:$kizuna &gt;= 7)[[[“今天，我想稍微去一趟东京湾。”-&gt;东京湾]]]
+(if:$kizuna &lt; 7)[[[“当然是一如既往地~出门取材啦。”-&gt;Day6.1]]]</tw-passagedata><tw-passagedata pid="33" name="Day2.1" tags="" position="800,450" size="100,100">(if:$bookstore is 0)[[[书店-&gt;书店]]
 ]
 (if:$park is 0)[[[公园-&gt;公园]]
 ]
@@ -580,7 +554,7 @@ if (!window.harloweAudioLibrary) {
 ]
 (if:$zoo is 0)[[[动物园-&gt;动物园]]
 ]
-(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="35" name="伊吹蓝情商高" tags="" position="1450,825" size="100,100">(set:$kizuna to $kizuna + 1)
+(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="34" name="伊吹蓝情商高" tags="" position="1450,825" size="100,100">(set:$kizuna to $kizuna + 1)
 
 “……。你啊。”
 
@@ -600,7 +574,7 @@ if (!window.harloweAudioLibrary) {
 
 “没什么。忘了吧？”
 
-[[（稀里糊涂地点头。）-&gt;蜜瓜包]]</tw-passagedata><tw-passagedata pid="36" name="伊吹蓝情商正常" tags="" position="1200,825" size="100,100">“是啊，毕竟这次只是来带走你一个人的灵魂的。七天之后就要收工回去了啊。”
+[[（稀里糊涂地点头。）-&gt;蜜瓜包]]</tw-passagedata><tw-passagedata pid="35" name="伊吹蓝情商正常" tags="" position="1200,825" size="100,100">“是啊，毕竟这次只是来带走你一个人的灵魂的。七天之后就要收工回去了啊。”
 
 死神事不关己一般望向远处平淡道。伊吹盯着他看了一会，目光跟着朝远处落。
 
@@ -622,7 +596,7 @@ if (!window.harloweAudioLibrary) {
 
 伊吹露出如释重负般的安心笑容。
 
-[[“这样啊——那就太好了。”-&gt;蜜瓜包]]</tw-passagedata><tw-passagedata pid="37" name="蜜瓜包" tags="" position="1325,825" size="100,100">“蜜瓜包餐车——！”
+[[“这样啊——那就太好了。”-&gt;蜜瓜包]]</tw-passagedata><tw-passagedata pid="36" name="蜜瓜包" tags="" position="1325,825" size="100,100">“蜜瓜包餐车——！”
 
 突然之间，伊吹仿佛看到心仪玩具而走不动道的小朋友一样指向一个方向。正如他所说，那边的空地上停着一辆涂漆相当可爱的蜜瓜包餐车。“有蜜瓜包在卖诶！我超喜欢蜜瓜包的～”
 
@@ -642,7 +616,7 @@ if (!window.harloweAudioLibrary) {
 
 “那就拜托你了。”
 
-[[“放心交给我吧~！”-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="38" name="Day3.1" tags="" position="675,575" size="100,100">(set:$kizuna to $kizuna + 1)
+[[“放心交给我吧~！”-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="37" name="Day3.1" tags="" position="675,575" size="100,100">(set:$kizuna to $kizuna + 1)
 “毕竟我不需要睡眠呢。”
 
 似乎已经习以为常一样，死神漫不经心地摆了摆手。
@@ -663,7 +637,7 @@ if (!window.harloweAudioLibrary) {
 
 “所以，今天的安排呢？又是取材吗？”
 
-[[“今天先不去取材了喔。有个得去的地方呢。”-&gt;医院]]</tw-passagedata><tw-passagedata pid="39" name="Day3.2" tags="" position="550,575" size="100,100"> (set: $suspicion to $suspicion + 1)“……好吧。”
+[[“今天先不去取材了喔。有个得去的地方呢。”-&gt;医院]]</tw-passagedata><tw-passagedata pid="38" name="Day3.2" tags="" position="550,575" size="100,100"> (set: $suspicion to $suspicion + 1)“……好吧。”
  
  死神似乎对伊吹的这番话略有微词一般挑挑眉。
  (if:$suspicion &lt; 3)[
@@ -671,7 +645,7 @@ if (!window.harloweAudioLibrary) {
  
  “所以，今天的安排呢？又是取材吗？”(set:$morningcalling to false)
 
-[[“今天先不去取材了喔。有个得去的地方呢。”-&gt;医院]]</tw-passagedata><tw-passagedata pid="40" name="医院" tags="" position="925,575" size="100,100">医院里消毒液的气味过于侵略性地朝鼻腔里钻。纯白的墙壁、天花板和地板沉默地倒映红色、绿色和白色的灯光。尽管也有着美化的装饰，但无论如何实在是无法称之为能让人心情愉快的地方。
+[[“今天先不去取材了喔。有个得去的地方呢。”-&gt;医院]]</tw-passagedata><tw-passagedata pid="39" name="医院" tags="" position="925,575" size="100,100">医院里消毒液的气味过于侵略性地朝鼻腔里钻。纯白的墙壁、天花板和地板沉默地倒映红色、绿色和白色的灯光。尽管也有着美化的装饰，但无论如何实在是无法称之为能让人心情愉快的地方。
 
 “……身体不好？”
 
@@ -681,7 +655,7 @@ if (!window.harloweAudioLibrary) {
 
 [[“现在对我来说，健不健康都没差就是了。”-&gt;医院1.2]]
 
-[[“非要说的话倒也不是那样~？稍微有点难解释呢。”-&gt;医院1.3]]</tw-passagedata><tw-passagedata pid="41" name="书店1" tags="" position="1175,575" size="100,100">“至少也有我可以尽力完成的事啊。说不定就是为了这个，我才继续活着的~”
+[[“非要说的话倒也不是那样~？稍微有点难解释呢。”-&gt;医院1.3]]</tw-passagedata><tw-passagedata pid="40" name="书店1" tags="" position="1175,575" size="100,100">“至少也有我可以尽力完成的事啊。说不定就是为了这个，我才继续活着的~”
 
 语气和表情明明都相当明媚，不知为何却实在让人笑不出来。死神瞥了他一眼，侧过眼去。
 
@@ -697,7 +671,7 @@ if (!window.harloweAudioLibrary) {
 
 伊吹抽走死神注视着的那本推理小说。
 
-[[”这个就当礼物吧~？今天的取材也很顺利呢，太好了——回家吧？“-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="42" name="医院1.1" tags="" position="825,700" size="100,100">“其实要说的话身体还完全很好呢。不然也不会每天取材了吧？”
+[[”这个就当礼物吧~？今天的取材也很顺利呢，太好了——回家吧？“-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="41" name="医院1.1" tags="" position="825,700" size="100,100">“其实要说的话身体还完全很好呢。不然也不会每天取材了吧？”
 
 “所以不是身体的原因，对吧。”
 
@@ -710,7 +684,7 @@ if (!window.harloweAudioLibrary) {
 吵闹声中，伊吹手中标着号码的传呼机略显刺耳地响起来。
 
 [[（进入诊疗室吧。）-&gt;诊疗室]]
-</tw-passagedata><tw-passagedata pid="43" name="医院1.2" tags="" position="700,700" size="100,100">(set: $suspicion to $suspicion + 1)“……倒也是呢。那你为什么还要来医院？”
+</tw-passagedata><tw-passagedata pid="42" name="医院1.2" tags="" position="700,700" size="100,100">(set: $suspicion to $suspicion + 1)“……倒也是呢。那你为什么还要来医院？”
 
 伊吹歪歪脑袋。
 
@@ -720,7 +694,7 @@ if (!window.harloweAudioLibrary) {
 
 安静下来不久，伊吹手中标着号码的传呼机略显刺耳地响起来。
 
-[[（进入诊疗室吧。）-&gt;诊疗室]]</tw-passagedata><tw-passagedata pid="44" name="医院1.3" tags="" position="950,700" size="100,100">(set:$kizuna to $kizuna + 1)“我以前可是超级厉害的喔？虽然没有到博尔特那种程度，但是所有人都说我‘腿脚很快’呢。”伊吹摸了摸鼻子，笑了起来。
+[[（进入诊疗室吧。）-&gt;诊疗室]]</tw-passagedata><tw-passagedata pid="43" name="医院1.3" tags="" position="950,700" size="100,100">(set:$kizuna to $kizuna + 1)“我以前可是超级厉害的喔？虽然没有到博尔特那种程度，但是所有人都说我‘腿脚很快’呢。”伊吹摸了摸鼻子，笑了起来。
 
 “之前有一次呢。四个田径部的高中生？好像是因为什么原因没办法跑全国大赛了，所以精力过剩——我就陪他们稍微兜了一圈喔~当然是用腿。死神酱来猜猜看——田径部高中生接力四人组和长腿小蓝，哪边会赢？”
 
@@ -739,7 +713,7 @@ if (!window.harloweAudioLibrary) {
 
 吵闹声中，伊吹手中标着号码的传呼机略显刺耳地响起来。
 
-[[（进入诊疗室吧。）-&gt;诊疗室]]</tw-passagedata><tw-passagedata pid="45" name="诊疗室" tags="" position="575,700" size="100,100">面容和蔼的医生坐在办公桌之后。
+[[（进入诊疗室吧。）-&gt;诊疗室]]</tw-passagedata><tw-passagedata pid="44" name="诊疗室" tags="" position="575,700" size="100,100">面容和蔼的医生坐在办公桌之后。
 “伊吹先生，能再见面真是太好了。最近的状态怎么样？忘记的事情，有想起来的感觉吗？”
 
 随着伊吹的摇头，医生在纸上唰唰写下了些什么。紧接着，医生便再次提问。
@@ -747,7 +721,7 @@ if (!window.harloweAudioLibrary) {
 
 [[“……最近的话已经没有了喔。”-&gt;医院2.1]]
 
-[[“……多少算是，稍微有一点吧？”-&gt;医院2.2]]</tw-passagedata><tw-passagedata pid="46" name="水族馆表演" tags="" position="1200,950" size="100,100">白鲸、海象和海獭们在咫尺的距离以内听从饲养员的指挥，完成着各种令人惊叹的杂技表演。在表演过程中，还有几次调皮地将水泼向观众的互动一样的小插曲。最为震撼的是压轴登场、掀起将近半米高水浪的虎鲸。身旁的小孩子们童言无忌地喊着“是熊猫鱼欸！”“是鲨鱼啊！”的声音此起彼伏。
+[[“……多少算是，稍微有一点吧？”-&gt;医院2.2]]</tw-passagedata><tw-passagedata pid="45" name="水族馆表演" tags="" position="1200,950" size="100,100">白鲸、海象和海獭们在咫尺的距离以内听从饲养员的指挥，完成着各种令人惊叹的杂技表演。在表演过程中，还有几次调皮地将水泼向观众的互动一样的小插曲。最为震撼的是压轴登场、掀起将近半米高水浪的虎鲸。身旁的小孩子们童言无忌地喊着“是熊猫鱼欸！”“是鲨鱼啊！”的声音此起彼伏。
 (if:$kizuna &gt; 4)[
 “说起来，白鲸也好虎鲸也罢，都不是鱼呢。”死神突然开口。
 
@@ -765,13 +739,13 @@ if (!window.harloweAudioLibrary) {
 
 听到伊吹的话，死神扑哧一声笑出声。“不接受也没办法，这是既定事实。…话虽如此，知道它们是不是鱼，也不会改变它们的命运呢。”]
 
-[[（表演结束后就回家吧。）-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="47" name="医院2.1" tags="" position="200,700" size="100,100"> (set: $kizuna to $kizuna + 1)
+[[（表演结束后就回家吧。）-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="46" name="医院2.1" tags="" position="200,700" size="100,100"> (set: $kizuna to $kizuna + 1)
  “这样啊。那么药的剂量先维持现状，不做特别的调整了。伊吹先生，慢慢地整理心情就好，多去户外和多运动、多和人接触，敞开心扉地把想法说出来，都会帮上忙的。”
  
- [[（……离开诊疗室吧。）-&gt;医院3]]</tw-passagedata><tw-passagedata pid="48" name="医院2.2" tags="" position="450,700" size="100,100"> (set: $suspicion to $suspicion + 1)
+ [[（……离开诊疗室吧。）-&gt;医院3]]</tw-passagedata><tw-passagedata pid="47" name="医院2.2" tags="" position="450,700" size="100,100"> (set: $suspicion to $suspicion + 1)
  “这样啊。那么这两样药的剂量就像这样稍微上涨一点……重要的是调整心情，多去户外和多运动、多和人接触，敞开心扉地把想法说出来。伊吹先生，不要太过于苛责自己了喔。” 
  
- [[（……离开诊疗室吧。）-&gt;医院3]]</tw-passagedata><tw-passagedata pid="49" name="医院3" tags="" position="325,700" size="100,100">相顾无言的沉默发酵了大概五分钟。回家的中途，这有些沉重到近乎压迫呼吸的气氛总算被打破了。
+ [[（……离开诊疗室吧。）-&gt;医院3]]</tw-passagedata><tw-passagedata pid="48" name="医院3" tags="" position="325,700" size="100,100">相顾无言的沉默发酵了大概五分钟。回家的中途，这有些沉重到近乎压迫呼吸的气氛总算被打破了。
 
 “……我不会问你到底是怎么回事，不过，你一脸想和人倾诉的表情。”
 
@@ -786,7 +760,7 @@ if (!window.harloweAudioLibrary) {
 “我要是幻觉，你七天之后就不用死了。也无所谓吧。”
 
 (if:$kizuna &gt; 5)[[[“……。你真是太狡猾了。”-&gt;梦01]]]
-(if:$kizuna &lt;= 5)[[[“…也是呢。回去吧？”-&gt;每日结算]]]</tw-passagedata><tw-passagedata pid="50" name="梦01" tags="" position="525,450" size="100,100">沉入了梦乡之中…………
+(if:$kizuna &lt;= 5)[[[“…也是呢。回去吧？”-&gt;每日结算]]]</tw-passagedata><tw-passagedata pid="49" name="梦01" tags="" position="525,450" size="100,100">沉入了梦乡之中…………
 
 鼻尖传来腥铁的臭气。明明什么都看不见，却像是下意识知晓接下来会发生些什么一样，本能地抗拒着——尽管如此，也还是被魇住了。
 
@@ -794,7 +768,7 @@ if (!window.harloweAudioLibrary) {
 
 从很遥远、但似乎又近到重叠的某个地方，传来不知谁混杂着啜泣的声音。
 
-(set:$dream to 1)(if:$Day is 3)[[[（闭上眼睛。）-&gt;Day4]]](if:$Day is 5)[[[（闭上眼睛。）-&gt;Day6]]]</tw-passagedata><tw-passagedata pid="51" name="Day4.1" tags="" position="700,825" size="100,100">(set:$Day to $Day + 1)(if:$bookstore is 0)[[[书店-&gt;书店]]
+(set:$dream to 1)(if:$Day is 3)[[[（闭上眼睛。）-&gt;Day4]]](if:$Day is 5)[[[（闭上眼睛。）-&gt;Day6]]]</tw-passagedata><tw-passagedata pid="50" name="Day4.1" tags="" position="700,825" size="100,100">(set:$Day to $Day + 1)(if:$bookstore is 0)[[[书店-&gt;书店]]
 ]
 (if:$park is 0)[[[公园-&gt;公园]]
 ]
@@ -806,7 +780,7 @@ if (!window.harloweAudioLibrary) {
 ]
 (if:$zoo is 0)[[[动物园-&gt;动物园]]
 ]
-(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="52" name="公园1" tags="" position="1175,200" size="100,100">(if:$kizuna &gt; 3)[“没有。因为工作很忙，一直没有机会去。”
+(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="51" name="公园1" tags="" position="1175,200" size="100,100">(if:$kizuna &gt; 3)[“没有。因为工作很忙，一直没有机会去。”
 
 “也就是说其实是想去的吧？”
 
@@ -826,7 +800,7 @@ if (!window.harloweAudioLibrary) {
 “到底谁自我介绍的时候会说自己去过奈良……？”]
 
 (set:$kizuna to $kizuna + 1)[[（就这样在公园坐到天黑吧。）-&gt;每日结算]]
-</tw-passagedata><tw-passagedata pid="53" name="动物园1" tags="" position="1175,450" size="100,100">“以前的时候家里的资金稍微有点周转不开？之类的。虽然也没到穷的程度吧。不过的确是没有多余的钱用来玩呢。”
+</tw-passagedata><tw-passagedata pid="52" name="动物园1" tags="" position="1175,450" size="100,100">“以前的时候家里的资金稍微有点周转不开？之类的。虽然也没到穷的程度吧。不过的确是没有多余的钱用来玩呢。”
 
 死神没有说话。伊吹笑了笑，继续说。
 
@@ -842,7 +816,7 @@ if (!window.harloweAudioLibrary) {
 
 “没什么。照片拍好了吗？”(set:$kizuna to $kizuna + 1)
 
-[[“多谢您操心，刚刚已经好好地拍过了——”-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="54" name="会面所" tags="" position="950,950" size="100,100">怀里抱着不少像是礼物一样的东西、也包括生活用品的伊吹，把死神带到了监狱。伊吹少见地一言不发，像惴惴不安的孩童一般稍微缩起身子，在等候区的长椅上坐下了。(set:$kizuna to $kizuna + 1)
+[[“多谢您操心，刚刚已经好好地拍过了——”-&gt;每日结算]]</tw-passagedata><tw-passagedata pid="53" name="会面所" tags="" position="950,950" size="100,100">怀里抱着不少像是礼物一样的东西、也包括生活用品的伊吹，把死神带到了监狱。伊吹少见地一言不发，像惴惴不安的孩童一般稍微缩起身子，在等候区的长椅上坐下了。(set:$kizuna to $kizuna + 1)
 
 同伊吹一起在等候区低垂着头时，死神突然开口。
 
@@ -861,7 +835,7 @@ if (!window.harloweAudioLibrary) {
 “——伊吹先生。申请与蒲郡慈生会面的伊吹先生？”
 
 [[“啊——是、在！”-&gt;会面所2]]
-</tw-passagedata><tw-passagedata pid="55" name="Day5.1" tags="" position="700,950" size="100,100">[[墓地-&gt;墓地]]
+</tw-passagedata><tw-passagedata pid="54" name="Day5.1" tags="" position="700,950" size="100,100">[[墓地-&gt;墓地]]
 
 (if:$bookstore is 0)[[[书店-&gt;书店]]
 ]
@@ -875,7 +849,7 @@ if (!window.harloweAudioLibrary) {
 ]
 (if:$zoo is 0)[[[动物园-&gt;动物园]]
 ]
-(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="56" name="墓地" tags="" position="575,950" size="100,100">过于冷清的、寂寥的公墓处，伊吹正蹲在某座墓碑前。能看出这座墓碑被好好地照料着，就连灰尘都鲜少看见。伊吹把墓前略显蔫巴的白洋甘菊放进袋子里，再仔细认真地重新放上了一捧百合。郑重地做完所有事、双手合十后静静闭了一会眼，伊吹才抬起头，看向死神。
+(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="55" name="墓地" tags="" position="575,950" size="100,100">过于冷清的、寂寥的公墓处，伊吹正蹲在某座墓碑前。能看出这座墓碑被好好地照料着，就连灰尘都鲜少看见。伊吹把墓前略显蔫巴的白洋甘菊放进袋子里，再仔细认真地重新放上了一捧百合。郑重地做完所有事、双手合十后静静闭了一会眼，伊吹才抬起头，看向死神。
 
 “这是我的前辈喔。总是非常照顾大家，而且很会煮乌冬呢。”
 
@@ -892,7 +866,7 @@ if (!window.harloweAudioLibrary) {
 “看样子他人望很好。去世以后也还是有很多人来看望的样子。”
 
 [[“是喔。他就是那样的人。和他相处过的人，大家全部都非常喜欢他——这样的人为什么就死了呢。”-&gt;墓地1]]
-</tw-passagedata><tw-passagedata pid="57" name="墓地1" tags="" position="425,950" size="100,100">“…。”
+</tw-passagedata><tw-passagedata pid="56" name="墓地1" tags="" position="425,950" size="100,100">“…。”
 
 死神缄默不语。周遭安静到只能听到独属于自己的呼吸声与心跳声——伊吹嘿嘿地笑了一声。
 
@@ -902,7 +876,7 @@ if (!window.harloweAudioLibrary) {
 
 面对着轻声首肯了他的话的死神，伊吹猛地站起身。
 
-(if:$dream is 1)[[[“——回去吧？”-&gt;每日结算]]](if:$dream is 0)[[[“——回去吧？”-&gt;梦01]]]</tw-passagedata><tw-passagedata pid="58" name="会面所2" tags="" position="950,825" size="100,100">“……非常抱歉，您的会面申请被拒绝了。”
+(if:$dream is 1)[[[“——回去吧？”-&gt;每日结算]]](if:$dream is 0)[[[“——回去吧？”-&gt;梦01]]]</tw-passagedata><tw-passagedata pid="57" name="会面所2" tags="" position="950,825" size="100,100">“……非常抱歉，您的会面申请被拒绝了。”
 
 “…这样啊。请问，他有留什么转告给我的话吗？”
 
@@ -914,7 +888,7 @@ if (!window.harloweAudioLibrary) {
 
 看着一副想要安慰自己却不知从何开口表情的死神，伊吹终于笑了出来。
 
-[[“没事啦——正好时间也还早，再去见一个人吧。”-&gt;墓地]]</tw-passagedata><tw-passagedata pid="59" name="东京塔1" tags="" position="1200,700" size="100,100">死神露出稍显惊讶的表情。
+[[“没事啦——正好时间也还早，再去见一个人吧。”-&gt;墓地]]</tw-passagedata><tw-passagedata pid="58" name="东京塔1" tags="" position="1200,700" size="100,100">死神露出稍显惊讶的表情。
 
 “……骗人的吧。”
 
@@ -929,7 +903,7 @@ if (!window.harloweAudioLibrary) {
 伊吹看着回避了视线的死神，表情非常、非常认真。“这$Day天也是，谢谢你一直跟着我喔。”
 
 [[“风景真不错呢。再稍微看一会就回去吧？”-&gt;每日结算]]
-</tw-passagedata><tw-passagedata pid="60" name="东京湾" tags="" position="950,1075" size="100,100">“天气真好啊。”
+</tw-passagedata><tw-passagedata pid="59" name="东京湾" tags="" position="950,1075" size="100,100">“天气真好啊。”
 
 轻声感叹着的死神跟在伊吹身后约三步远的地方。似乎听到那番话而感到认同般转过身，伊吹小步跑到与死神并肩的位置。
 
@@ -949,7 +923,7 @@ if (!window.harloweAudioLibrary) {
 
 “抱歉。所以，你有什么要倾述的吗？”
 
-[[“我啊，在这里失去了重要的人喔。”-&gt;东京湾1]]</tw-passagedata><tw-passagedata pid="61" name="Day6.1" tags="" position="700,1075" size="100,100">(if:$bookstore is 0)[[[书店-&gt;书店]]
+[[“我啊，在这里失去了重要的人喔。”-&gt;东京湾1]]</tw-passagedata><tw-passagedata pid="60" name="Day6.1" tags="" position="700,1075" size="100,100">(if:$bookstore is 0)[[[书店-&gt;书店]]
 ]
 (if:$park is 0)[[[公园-&gt;公园]]
 ]
@@ -961,7 +935,7 @@ if (!window.harloweAudioLibrary) {
 ]
 (if:$zoo is 0)[[[动物园-&gt;动物园]]
 ]
-(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="62" name="东京湾1" tags="" position="1075,1075" size="100,100">“……这样啊。”(set:$kizuna to $kizuna + 1)
+(if:$suisou is 0)[[[水族馆-&gt;水族馆]]]</tw-passagedata><tw-passagedata pid="61" name="东京湾1" tags="" position="1075,1075" size="100,100">“……这样啊。”(set:$kizuna to $kizuna + 1)
 
 难以窥见低着头的死神的表情。不知为何，那副神态让伊吹有些焦躁。他继续说下去。
 
@@ -977,7 +951,7 @@ if (!window.harloweAudioLibrary) {
 
 [[“但是死了就是死了啊？”-&gt;东京湾2.1]]
 
-[[“…你不会明白的。”-&gt;东京湾2.2]]</tw-passagedata><tw-passagedata pid="63" name="东京湾2.1" tags="" position="1200,1075" size="100,100">“他再也回不来了。我再也见不到他了。甚至就连他是什么样的人，我都全部忘掉了。”
+[[“…你不会明白的。”-&gt;东京湾2.2]]</tw-passagedata><tw-passagedata pid="62" name="东京湾2.1" tags="" position="1200,1075" size="100,100">“他再也回不来了。我再也见不到他了。甚至就连他是什么样的人，我都全部忘掉了。”
 
 死神安静地凝视着发泄般一连串将话语掷出的伊吹。
 
@@ -995,7 +969,7 @@ if (!window.harloweAudioLibrary) {
 
 伊吹有些狼狈地低下头。手背仓促地在脸上胡乱抹掉溢出来的眼泪，却像是反而因此弄得更糟糕了一样，无论怎样都无法再止住夺眶而出的咸涩的泪了。
 
-[[“…也太伶牙俐齿了吧，你。”-&gt;梦02]]</tw-passagedata><tw-passagedata pid="64" name="东京湾2.2" tags="" position="1325,950" size="100,100">(set: $suspicion to $suspicion + 1)“或许是那样的吧。伊吹，我不是想和你吵架——但是，就算我不知道‘那个人’到底是怎么想的。你就能确定自己的想法一定和他的相同吗？你不是已经完全不记得那个人的事了吗？”
+[[“…也太伶牙俐齿了吧，你。”-&gt;梦02]]</tw-passagedata><tw-passagedata pid="63" name="东京湾2.2" tags="" position="1325,950" size="100,100">(set: $suspicion to $suspicion + 1)“或许是那样的吧。伊吹，我不是想和你吵架——但是，就算我不知道‘那个人’到底是怎么想的。你就能确定自己的想法一定和他的相同吗？你不是已经完全不记得那个人的事了吗？”
 
 略有愠怒的死神罕见地喊了伊吹的名字。沉默下来的伊吹将目光从无情的海面挪到了死神身上。海风吹拂下，略显半透明的、死神的身体，以及他所穿着的那件黑风衣，都全然不同这世界接触一般纹丝不动。
 
@@ -1009,7 +983,7 @@ if (!window.harloweAudioLibrary) {
 
 “‘只有把每天都当做最后一天来过的人才会热爱生活’。这是你说的吧？”
 
-[[（继续维持沉默……）-&gt;东京湾2.2.1]]</tw-passagedata><tw-passagedata pid="65" name="东京湾2.2.1" tags="" position="1450,950" size="100,100">“就像你刚刚说的那样。哪怕你觉得自己亏欠了那个人再多的东西，等到明天，一切也就结束了，不是吗？”
+[[（继续维持沉默……）-&gt;东京湾2.2.1]]</tw-passagedata><tw-passagedata pid="64" name="东京湾2.2.1" tags="" position="1450,950" size="100,100">“就像你刚刚说的那样。哪怕你觉得自己亏欠了那个人再多的东西，等到明天，一切也就结束了，不是吗？”
 
 看着似乎逃避般扭开头的伊吹，死神轻轻叹了口气。
 
@@ -1019,7 +993,7 @@ if (!window.harloweAudioLibrary) {
 
 “就当什么都没发生过——可以吧？”
 
-[[“合点承知の助~”-&gt;梦02]]</tw-passagedata><tw-passagedata pid="66" name="梦02" tags="" position="1325,1075" size="100,100">沉入了梦乡之中…………
+[[“合点承知の助~”-&gt;梦02]]</tw-passagedata><tw-passagedata pid="65" name="梦02" tags="" position="1325,1075" size="100,100">沉入了梦乡之中…………
 
 什么都看不见、也什么都无法感知到。仿佛身体已经不属于自己一般被抽离开来。
 
@@ -1027,9 +1001,9 @@ if (!window.harloweAudioLibrary) {
 
 近在咫尺的某处，似乎听到了属于某个本应非常熟悉的人的声音。
 
-[[（就这样睡过去吧。）-&gt;TheFinalDay]]</tw-passagedata><tw-passagedata pid="67" name="TE" tags="" position="700,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为上吊自杀。伊吹先生以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉，业内各界人士都对此表示强烈惋惜。接下来的新闻……”
+[[（就这样睡过去吧。）-&gt;TheFinalDay]]</tw-passagedata><tw-passagedata pid="66" name="TE" tags="" position="700,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为上吊自杀。伊吹先生以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉，业内各界人士都对此表示强烈惋惜。接下来的新闻……”
 
-[[——TE  Tired Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="68" name="CastList" tags="" position="825,1325" size="100,100">&lt;!-- 电影片尾滚动演员表 · Harlowe 3.3.9 --&gt;
+[[——TE  Tired Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="67" name="CastList" tags="" position="825,1325" size="100,100">&lt;!-- 电影片尾滚动演员表 · Harlowe 3.3.9 --&gt;
 &lt;style&gt;
 /* 整体居中、白色、无背景 */
 
@@ -1093,9 +1067,9 @@ if (!window.harloweAudioLibrary) {
   
   [[回到开始-&gt;Start]]
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="69" name="HE" tags="" position="575,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为因低处摔倒导致的意外死亡。伊吹先生以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉，业内各界人士都对此表示强烈惋惜。接下来的新闻……”
+</tw-passagedata><tw-passagedata pid="68" name="HE" tags="" position="575,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为因低处摔倒导致的意外死亡。伊吹先生以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉，业内各界人士都对此表示强烈惋惜。接下来的新闻……”
 
-[[——HE  Heartbroken Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="70" name="呼唤爱的谢幕" tags="" position="950,1200" size="100,100">在花店挑选了好久才选中的白玫瑰，伊吹最后也只买了一枝。并不是打算拖延时间、也没有想要逃避的意图——只是因为没有送那样的花的立场，所以才犹豫了。像迷宫一样拐来拐去、形状大同小异的碑林中，在马上就要迷路的前夕，想要找的那一座却像奇迹一样出现了。
+[[——HE  Heartbroken Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="69" name="呼唤爱的谢幕" tags="" position="950,1200" size="100,100">在花店挑选了好久才选中的白玫瑰，伊吹最后也只买了一枝。并不是打算拖延时间、也没有想要逃避的意图——只是因为没有送那样的花的立场，所以才犹豫了。像迷宫一样拐来拐去、形状大同小异的碑林中，在马上就要迷路的前夕，想要找的那一座却像奇迹一样出现了。
 
 “……所以说啊。我真的超幸运的呢。”
 
@@ -1107,7 +1081,7 @@ if (!window.harloweAudioLibrary) {
 
 “没有别的要做的事了吗？”
 
-[[“没有啦。毕竟，你不是已经多给了我七天时间吗？”-&gt;一定，能够到达哦。]]</tw-passagedata><tw-passagedata pid="71" name="一定，能够到达哦。" tags="" position="1075,1200" size="100,100">“我没说错吧，志摩。”
+[[“没有啦。毕竟，你不是已经多给了我七天时间吗？”-&gt;一定，能够到达哦。]]</tw-passagedata><tw-passagedata pid="70" name="一定，能够到达哦。" tags="" position="1075,1200" size="100,100">“我没说错吧，志摩。”
 
 伊吹抬起手，又一次轻轻抚摸起那块写着“志摩一未”的墓碑。
 
@@ -1123,7 +1097,7 @@ if (!window.harloweAudioLibrary) {
 
 “已经做得很好了，伊吹。”
 
-[[“……对不起啊，小志摩，生命线的事，没有做到呢。”-&gt;不会忘记你的]]</tw-passagedata><tw-passagedata pid="72" name="不会忘记你的" tags="" position="1200,1200" size="100,100">志摩摇摇头。“你不需要向我道歉。不过，我们也是时候走了。”
+[[“……对不起啊，小志摩，生命线的事，没有做到呢。”-&gt;不会忘记你的]]</tw-passagedata><tw-passagedata pid="71" name="不会忘记你的" tags="" position="1200,1200" size="100,100">志摩摇摇头。“你不需要向我道歉。不过，我们也是时候走了。”
 
 伊吹看了一眼那朵被去掉了刺的玫瑰。
 
@@ -1133,9 +1107,37 @@ if (!window.harloweAudioLibrary) {
 
 伊吹点下了头。
 
-[[“走吧~！”-&gt;BE]]</tw-passagedata><tw-passagedata pid="73" name="BE" tags="" position="1325,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为自然死亡。据悉，伊吹先生在从事绘本作家的工作前曾是一名刑警，因伤病离职后，凭借其独特的观察世界的视角，以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉。接下来是一段关于伊吹先生生前同事们的采访…………”
+[[“走吧~！”-&gt;BE]]</tw-passagedata><tw-passagedata pid="72" name="BE" tags="" position="1325,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为自然死亡。据悉，伊吹先生在从事绘本作家的工作前曾是一名刑警，因伤病离职后，凭借其独特的观察世界的视角，以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉。接下来是一段关于伊吹先生生前同事们的采访…………”
 
-[[——BE  Blissful Ending——-&gt;CastList]]</tw-passagedata></tw-storydata>
+[[——BE  Blissful Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="73" name="TheFinalDay" tags="" position="825,1200" size="100,100">(if:$suspicion &gt;= 5 and $kizuna &lt;= 8)[做好一切准备工作之后，伊吹轻轻叹气。
+
+“虽然是幻觉，但能陪我到现在，非常感谢你。至少在最后还能再见你一面什么的，简直是我不敢想的事。”
+
+“抱歉。我又没有好好听你的话呢。嘛，不过你肯定也早就知道了吧？我就是这样的人嘛。”
+
+在空无一人的房屋之中自言自语着，伊吹笑出了声。
+
+“虽然大概这几天和你一起做的事完全会被当作是疯子。但至少我很开心。再见了，还有，我马上就来找你。”
+
+[[（踢开凳子。）-&gt;TE]]]
+(if:$kizuna &lt;= 8 and $suspicion &lt; 5)[“今天就是最后一天了吧？”
+
+面对着起了个大早、在窗边注视着日出的伊吹，死神轻轻点了点头。
+
+“应该还不急吧？”伊吹平静地笑笑。“如果不急的话，我想把日出看完。”
+
+“……嗯。不急。”死神慢慢踱步到他的身边。大抵因为没有实体，做出这一切时的死神像被风掀起的纱帘一样悄无声息。“介意我一起吗？”
+
+[[“那就一起看吧。”-&gt;HE]]]
+(if:$kizuna &gt;= 8 and $suspicion is not 8)[“……伊吹。”
+
+今天的死神也一如既往地在清晨到来时呼唤了他的名字。伊吹眨眨眼，睡意渐渐消失了。
+
+“…啊。今天就是最后了……”
+
+面前的死神轻轻点了点头。伊吹凝视着那张脸，花了三秒钟找回自己的声音。
+
+[[“可以稍微等我一下吗？我还有，最后一个想去的地方。”-&gt;呼唤爱的谢幕]]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
