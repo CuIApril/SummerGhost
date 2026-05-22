@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 夏日幻魂.</tw-noscript></noscript></tw-story>
-<tw-storydata name="夏日幻魂" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="1744B08E-79E5-4354-ACA6-705B928098E1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"><style>
+<tw-storydata name="夏日幻魂" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="1744B08E-79E5-4354-ACA6-705B928098E1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"><style>
     /* 强制背景和文字 */
     body { 
         background: #e6f7ff !important; 
@@ -39,7 +39,7 @@
 
 <!-- 使用 HTML audio 标签 -->
 <!-- hidden 属性会让播放器隐藏 -->
-<audio id="bgm" src="https://cc-im-kefu-1256921685.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/9f7c700d-b7d5-4b3e-9376-01e7cd7174b3/1.jpg" loop autoplay volume="0.5"></audio>
+<audio id="bgm" src="https://videotourl.com/audio/1779439051899-5145d564-f13d-4a9d-a157-d7e2629d05e0.mp3" loop autoplay volume="0.5"></audio>
 
 <!-- 如果你想让音乐在某个时刻开始，可以去掉 autoplay，用 JS 控制 -->
 <!-- 用下面这行代码可以确保页面加载完就播放 -->
@@ -53,20 +53,14 @@
     });
 </script>
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">// 引入 HAL 音频库
-if (!window.harloweAudioLibrary) {
-    window.harloweAudioLibrary = true;
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/gh/tmedwards/hal@3.0.0/hal.min.js';
-    document.head.appendChild(script);
-}</script><tw-tag name="Day" color="purple"></tw-tag><tw-passagedata pid="1" name="Start" tags="" position="75,175" size="100,100">
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Day" color="purple"></tw-tag><tw-passagedata pid="1" name="Start" tags="" position="75,175" size="100,100">
 
 &lt;!-- 标题 --&gt;
 &lt;h1&gt;Summer Ghost&lt;/h1&gt;
 &lt;div class=&quot;subtitle&quot;&gt;这是关于我们的、最后一个夏天的故事。&lt;/div&gt;
 
 &lt;!-- 开始按钮，点击后跳转到“醒来”这个场景 --&gt;
-(link: &quot;开始&quot;)[(goto: &quot;醒来&quot;)]</tw-passagedata><tw-passagedata pid="2" name="StoryCaption" tags="" position="75,300" size="100,100">&lt;style&gt;
+(link: &quot;开始&quot;)[(goto: &quot;醒来&quot;)]</tw-passagedata><tw-passagedata pid="2" name="StoryCaption" tags="" position="75,325" size="100,100">&lt;style&gt;
     /* 强制背景和文字 */
     body { 
         background: #e6f7ff !important; 
@@ -96,7 +90,7 @@ if (!window.harloweAudioLibrary) {
 
 &lt;!-- 使用 HTML audio 标签 --&gt;
 &lt;!-- hidden 属性会让播放器隐藏 --&gt;
-&lt;audio id=&quot;bgm&quot; src=&quot;https://cc-im-kefu-1256921685.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/9f7c700d-b7d5-4b3e-9376-01e7cd7174b3/1.jpg&quot; loop autoplay volume=&quot;0.5&quot;&gt;&lt;/audio&gt;
+&lt;audio id=&quot;bgm&quot; src=&quot;https://videotourl.com/audio/1779439051899-5145d564-f13d-4a9d-a157-d7e2629d05e0.mp3&quot;loop autoplay volume=&quot;0.5&quot;&gt;&lt;/audio&gt;
 
 &lt;!-- 如果你想让音乐在某个时刻开始，可以去掉 autoplay，用 JS 控制 --&gt;
 &lt;!-- 用下面这行代码可以确保页面加载完就播放 --&gt;
@@ -110,7 +104,12 @@ if (!window.harloweAudioLibrary) {
     });
 &lt;/script&gt;
 
-</tw-passagedata><tw-passagedata pid="3" name="醒来" tags="" position="25,25" size="100,100">伊吹蓝，茨城人，36岁，性别男，现居东京。
+&lt;script&gt;
+document.onclick = function(){
+  let a = document.getElementById(&#39;bgm&#39;);
+  if(a.paused) a.play();
+}
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="3" name="醒来" tags="" position="25,25" size="100,100">伊吹蓝，茨城人，36岁，性别男，现居东京。
 作为一介普通人好好地生活至今——当然也不可能因此就得到什么奖励，但至少生活无恙，这一点就已经超过了许多人。
 要说职业的话，在前一份工作失利之后的他，最终决定换一份或许更适合他的职业。
 
@@ -267,7 +266,7 @@ if (!window.harloweAudioLibrary) {
 (set: $jiatingcanting to 0)
 (set: $tokyotower to 0)
 (set: $zoo to 0)
-(set: $street to 0)</tw-passagedata><tw-passagedata pid="15" name="回答1" tags="" position="150,25" size="100,100">[
+(set: $street to 0)</tw-passagedata><tw-passagedata pid="15" name="回答1" tags="" position="200,25" size="100,100">[
         男人似乎欣赏了一会他摔倒的模样，而后才慢慢开口。
         “伊吹蓝，是你吧？”
 ]
@@ -425,7 +424,7 @@ if (!window.harloweAudioLibrary) {
 
 死神轻声地对伊吹的话表示了赞同。伊吹点了点头，用勺柄在桌面上戳了几下。
 
-志摩看向他。
+死神看向他。
 
 “有灵感了？”
 
@@ -876,7 +875,8 @@ if (!window.harloweAudioLibrary) {
 
 面对着轻声首肯了他的话的死神，伊吹猛地站起身。
 
-(if:$dream is 1)[[[“——回去吧？”-&gt;每日结算]]](if:$dream is 0)[[[“——回去吧？”-&gt;梦01]]]</tw-passagedata><tw-passagedata pid="57" name="会面所2" tags="" position="950,825" size="100,100">“……非常抱歉，您的会面申请被拒绝了。”
+(if:$dream is 1)[[[“——回去吧？”-&gt;每日结算]]]
+(if:$dream is 0)[[[“——回去吧？”-&gt;梦01]]]</tw-passagedata><tw-passagedata pid="57" name="会面所2" tags="" position="950,825" size="100,100">“……非常抱歉，您的会面申请被拒绝了。”
 
 “…这样啊。请问，他有留什么转告给我的话吗？”
 
@@ -1063,10 +1063,11 @@ if (!window.harloweAudioLibrary) {
   &lt;p&gt;BGM —— Gymnopédie No.1&lt;/p&gt;
   &lt;p&gt;&lt;/p&gt;
   &lt;p&gt;Special Thank —— you&lt;/p&gt;
-  
-  
-  [[回到开始-&gt;Start]]
-&lt;/div&gt;
+   (link:&quot;回到开始&quot;)[(reload:)]
+ &lt;/div&gt;
+ 
+ 
+
 </tw-passagedata><tw-passagedata pid="68" name="HE" tags="" position="575,1200" size="100,100">“警视厅于今日证实，36岁的绘本作家伊吹蓝被发现在其位于东京的居所内身亡。经现场勘查与初步调查，警方已排除他杀嫌疑，确认为因低处摔倒导致的意外死亡。伊吹先生以其温暖细腻的画风和对儿童心理的深刻洞察而广受赞誉，业内各界人士都对此表示强烈惋惜。接下来的新闻……”
 
 [[——HE  Heartbroken Ending——-&gt;CastList]]</tw-passagedata><tw-passagedata pid="69" name="呼唤爱的谢幕" tags="" position="950,1200" size="100,100">在花店挑选了好久才选中的白玫瑰，伊吹最后也只买了一枝。并不是打算拖延时间、也没有想要逃避的意图——只是因为没有送那样的花的立场，所以才犹豫了。像迷宫一样拐来拐去、形状大同小异的碑林中，在马上就要迷路的前夕，想要找的那一座却像奇迹一样出现了。
@@ -1137,7 +1138,8 @@ if (!window.harloweAudioLibrary) {
 
 面前的死神轻轻点了点头。伊吹凝视着那张脸，花了三秒钟找回自己的声音。
 
-[[“可以稍微等我一下吗？我还有，最后一个想去的地方。”-&gt;呼唤爱的谢幕]]]</tw-passagedata></tw-storydata>
+[[“可以稍微等我一下吗？我还有，最后一个想去的地方。”-&gt;呼唤爱的谢幕]]]</tw-passagedata><tw-passagedata pid="74" name="hal.tracks" tags="" position="675,1425" size="100,100">bgm:
+&quot;https://videotourl.com/audio/1779439051899-5145d564-f13d-4a9d-a157-d7e2629d05e0.mp3&quot;</tw-passagedata><tw-passagedata pid="75" name="未命名片段" tags="" position="550,1425" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
